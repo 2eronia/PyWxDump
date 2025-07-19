@@ -1,6 +1,75 @@
-## v3.1.33.(待发布)
+## v3.1.46.(待发布)
 
-- 
+- UPDATE CHANGELOG.md
+
+## v3.1.45
+
+- add wx 3.9.12.51
+- UPDATE CHANGELOG.md
+- fix gen_change_log.py
+
+## v3.1.44
+
+- fix #176
+- fix #178
+- update #178
+
+## v3.1.43
+
+- add 3.9.12.45
+- add wx 3.9.12.37
+
+## v3.1.42
+
+- add wx 3.9.12.37
+
+## v3.1.41, tag: v3.1.40, tag: v3.1.39
+
+- 新增消息分类 (#162)
+- fix 修改flask启动方式
+- add wx 3.9.12.31
+- UPDATE CHANGELOG.md
+- Merge remote-tracking branch 'origin'
+
+## v3.1.38
+
+- fix
+- 实时消息增加中文路径支持
+- UPDATE CHANGELOG.md
+
+## v3.1.37
+
+- fix
+- 完善收藏的类型转换体系
+- fix tag查询结果去重
+- modify log fmt
+
+## v3.1.36
+
+- fix #143
+- UPDATE CHANGELOG.md
+
+## v3.1.35
+
+- fix
+- 增加api文档说明
+- UPDATE CHANGELOG.md
+
+## v3.1.34
+
+- add 注释
+- fix CE获取基址.md
+- UPDATE CHANGELOG.md
+- UPDATE WXOFFS 3.9.12.17
+
+## v3.1.33
+
+- fix
+- 群聊增加群成员显示
+- 计划增加自动推送到gitee
+- add wx 3.9.12.15
+- UPDATE CHANGELOG.md
+- update UserGuide.md
 
 ## v3.1.32
 
@@ -114,7 +183,6 @@
 - 实时消息增加工具路径设置
 - fix bug；略微调整UI
 - UPDATE CHANGELOG.md
-- (backup/master) UPDATE CHANGELOG.md
 
 ## v3.1.13
 

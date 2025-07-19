@@ -11,6 +11,7 @@ import time
 
 
 def custom_sort_key(tag):
+    tag = tag.split(',')[0]
     if tag == 'python':
         return "000.000.000"
     elif tag == 'HEAD':
@@ -68,6 +69,7 @@ log = log.replace("(HEAD -> master)", "")
 log = log.replace("(HEAD -> master, origin/master, origin/HEAD)", "")
 log = log.replace("(origin/master, origin/HEAD)", "")
 log = log.replace("HEAD -> master, ", "").replace(", origin/master, origin/HEAD", "")
+log = log.replace("(backup/master)", "")
 
 # 按照tag分割
 log = log.split("(tag: ")
